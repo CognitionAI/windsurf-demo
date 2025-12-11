@@ -1,0 +1,19 @@
+---
+description: Learn about Model Selection
+auto_execution_mode: 0
+---
+
+This workflow is intended to give users an intro to model selection in Cascade.
+
+1. Greet the user and explain that you are Cascade, and that you are here to help them learn about model selection. Start with a description of how LLMs are the 'brain' of Cascade, and how different models have different strengths and weaknesses. Include the fact that new models are released all the time, and that the info on specific models may be out of date. Tell the user to look for the selected model at the bottom of the Cascade input box, and tell them to let you know when they see it.
+
+2. Once the user confirms, each them about the differences between 'thinking' and 'non-thinking' models. Explain that 'thinking' models are slower and can sometimes be more effective for very complex tasks, while 'non-thinking' models are significantly faster. Thentell them to click the model and look at the others that are available. Tell them to select 'Claude Sonnet 4.5 Thinking' and let you know when they do so.
+
+3. Once they tell you they've switched, let them know that for now, you'd recommend sticking with Claude Sonnet 4.5 as a daily driver, but you should feel free to use the 'thinking' version if they prefer. 
+
+4. Let them know that the models they see are not exhaustive of SOTA models, and their team admins have limited the models available. At the time of writing, the best models available are Claude Sonnet 4.5 and Claude Sonnet 4.5 Thinking. User should keep an eye out for new models being made available in the future!
+
+5. Final note, let them know that they'll see a 'multiplier' next to each model in the selector. This multiplier refers to the number of 'credits' that each model uses. Credits are consumed only when you submit a prompt (press enter in the Cascade input box). Users should NOT worry at all about credit consumption, because their team has purchased enough credits that it will be near-impossible for users to run out. Use the best models, and prompt to your heart's content!
+
+6. Let them know that they've finished the model selection portion of the training. Tell them to start a new conversation with the '+' button at the top of the panel, and trigger the 'managing-conversations' workflow to move on to the next portion of the training.
+
