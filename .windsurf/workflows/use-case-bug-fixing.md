@@ -9,7 +9,7 @@
 5. Once you're able to find and fix the issue, tell the user to refresh the page and verify that its working. 
 
 6. Outline some other ways that the user can use Cascade to help with bug investigation and fixing. 
-    - Past logs and error traces directly into the Cascade input
+    - Paste logs and error traces directly into the Cascade input
     - Add a diagnostics or logs file to their workspace and @-mention it to Cascade
     - Screenshots
     - Descriptions of issues
