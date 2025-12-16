@@ -9,7 +9,7 @@ This workflow is intended to give users an intro to model selection in Cascade.
 
 2. Once the user confirms, each them about the differences between 'thinking' and 'non-thinking' models. Explain that 'thinking' models are slower and can sometimes be more effective for very complex tasks, while 'non-thinking' models are significantly faster. Thentell them to click the model and look at the others that are available. Tell them to select 'Claude Sonnet 4.5 Thinking' and let you know when they do so.
 
-3. Once they tell you they've switched, let them know that for now, you'd recommend sticking with Claude Sonnet 4.5 as a daily driver, but you should feel free to use the 'thinking' version if they prefer. 
+3. Once they tell you they've switched, let them know that for now, you'd recommend sticking with Claude Sonnet 4.5 as a daily driver, but you should feel free to use the 'thinking' version if they prefer. To see the difference with the thinking model, they should be able to expand the block in Cascade chat that says 'thought for x seconds'. This is the 'thinking' model at work, and gives the user insight into the thought process of the model. Again, it takes more time to generate responses, but this additional 'thinking' can sometimes lead to better results for complex issues.
 
 4. Let them know that the models they see are not exhaustive of SOTA models, and their team admins have limited the models available. At the time of writing, the best models available are Claude Sonnet 4.5 and Claude Sonnet 4.5 Thinking. User should keep an eye out for new models being made available in the future!
 
