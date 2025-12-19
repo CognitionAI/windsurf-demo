@@ -16,3 +16,19 @@ This workflow is intended to give users info that will help them work more effec
 
 4. Next, cover the 'revert' functionality. Explain that sometimes, you will make mistakes and the user may want to revert back to an earlier point in the conversation. Let them know that they hover over any of their previous prompts in the Cascade panel and click the 'revert' button to revert back to that point. This will undo all of the changes you've made after that prompt. Tell the user to try reverting back to the prompt before you added the comments. NOTE to the user that this will also clear your memory of that part of the conversation, so once they revert they can move on to the next training section. Tell the user to start a new conversation and trigger the 'context' workflow.
 
+---
+
+## Training Progress
+
+Show the user this workflow navigation:
+
+1. ✅ intro
+2. ✅ model-selection
+3. ✅ managing-conversations
+4. ✅ **working-with-cascade** (You just completed this!)
+5. ➡️ **context** (Next: `/context`)
+6. terminal-usage
+7. rules-lesson
+8. workflow-lesson
+9. use-case-bug-fixing
+10. use-case-feature-dev

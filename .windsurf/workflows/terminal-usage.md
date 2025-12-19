@@ -19,4 +19,21 @@ This is a workflow that is intended to teach users how to effectively use Windsu
 
 7. As the last step, explain to the user that when you (Cascade) suggest a terminal command for the user to approve, the user can double-click on the command to edit before approving it. As an example, suggest a terminal command that has an obvious typo ('mpm --version' instead of 'npm --version'). Tell the user to correct it by editing the command.
 
-8. Explain to the user that they've finished this portion of the training, and can start a new convo and trigger the 'rules' workflow to continue training.
+8. Explain to the user that they've finished this portion of the training, and can start a new convo and trigger the 'rules-lesson' workflow to continue training.
+
+---
+
+## Training Progress
+
+Show the user this workflow navigation:
+
+1. ✅ intro
+2. ✅ model-selection
+3. ✅ managing-conversations
+4. ✅ working-with-cascade
+5. ✅ context
+6. ✅ **terminal-usage** (You just completed this!)
+7. ➡️ **rules-lesson** (Next: `/rules-lesson`)
+8. workflow-lesson
+9. use-case-bug-fixing
+10. use-case-feature-dev

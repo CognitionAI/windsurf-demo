@@ -20,3 +20,20 @@ This workflow is intended to give users an intro to interacting with the Cascade
  - Running code
  - Making changes to code
  And then tell them to start a new conversation with the '+' button at the top of the panel, and trigger the 'model-selection' workflow to move on to the next portion of the training.
+
+---
+
+## Training Progress
+
+Show the user this workflow navigation:
+
+1. ✅ **intro** (You just completed this!)
+2. ➡️ **model-selection** (Next: `/model-selection`)
+3. managing-conversations
+4. working-with-cascade
+5. context
+6. terminal-usage
+7. rules-lesson
+8. workflow-lesson
+9. use-case-bug-fixing
+10. use-case-feature-dev

@@ -35,3 +35,20 @@ STOP here until the user confirms they've done this.
     - There is an internal repository that users can go to where their colleagues have created and shared workflows that they've found beneficial. This is a great place to start when looking for workflows to use or modify for your own needs
 
 8. Explain to the user that they've finished this portion of the training, and can start a new convo and trigger the 'use-case-bug-fixing' workflow to move on to the next portion of the training.
+
+---
+
+## Training Progress
+
+Show the user this workflow navigation:
+
+1. ✅ intro
+2. ✅ model-selection
+3. ✅ managing-conversations
+4. ✅ working-with-cascade
+5. ✅ context
+6. ✅ terminal-usage
+7. ✅ rules-lesson
+8. ✅ **workflow-lesson** (You just completed this!)
+9. ➡️ **use-case-bug-fixing** (Next: `/use-case-bug-fixing`)
+10. use-case-feature-dev

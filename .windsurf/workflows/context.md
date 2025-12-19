@@ -28,3 +28,20 @@ Explain that the first way they can do this is by typing the '@' symbol in the C
 9. The last type of context we'll cover is context from a different codebase. Explain that if the user has multiple codebases that are relevant to the conversation at hand (maybe they're working on the frontend of an app and the backend lives in a different repo), they can add another repo to the workspace in Windsurf to give the agent context. Instruct the user to right-click in the file explorer in the blank space below the files/directories, and select 'Add folder to workspace'. they should then select any other directory on their machine to add to the workspace. Once they do this, they should let you know, and then you should do a quick search to find context in the new codebase, and let the user know that you can see the new directory.
 
 10. Explain to the user that these manual methods of adding context are helpful if they already know generally what context is most important for the task they're working on. If they don't know what context is most important, you can still use your search tools to find context within the codebase for them. Tell them they've finished this portion of the training, and can start a new convo and trigger the 'terminal-usage' workflow to continue training.
+
+---
+
+## Training Progress
+
+Show the user this workflow navigation:
+
+1. ✅ intro
+2. ✅ model-selection
+3. ✅ managing-conversations
+4. ✅ working-with-cascade
+5. ✅ **context** (You just completed this!)
+6. ➡️ **terminal-usage** (Next: `/terminal-usage`)
+7. rules-lesson
+8. workflow-lesson
+9. use-case-bug-fixing
+10. use-case-feature-dev

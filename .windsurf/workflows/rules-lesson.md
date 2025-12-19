@@ -22,4 +22,21 @@ This is a workflow that is intended to teach users how to effectively use Windsu
 
 8. Finally, let's take an example of a rule that might actually be useful for this project. Have the user create a rule that describes the correct command to run the app (they should know this from a previous conversation), and set the trigger to 'always_on'. This is useful because any time you work in this repo and you ask Cascade to run the app, it will automatically know how to run the correct command!   
 
-9. Explain that the user has finished this portion of the training, and can start a new convo and trigger the 'workflows-lesson' workflow to continue training.
+9. Explain that the user has finished this portion of the training, and can start a new convo and trigger the 'workflow-lesson' workflow to continue training.
+
+---
+
+## Training Progress
+
+Show the user this workflow navigation:
+
+1. ✅ intro
+2. ✅ model-selection
+3. ✅ managing-conversations
+4. ✅ working-with-cascade
+5. ✅ context
+6. ✅ terminal-usage
+7. ✅ **rules-lesson** (You just completed this!)
+8. ➡️ **workflow-lesson** (Next: `/workflow-lesson`)
+9. use-case-bug-fixing
+10. use-case-feature-dev

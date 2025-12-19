@@ -17,3 +17,22 @@ This is a workflow that is intended to teach users how to effectively use Windsu
 7. Once you finish the tests, run them to make sure they pass and fix any issues.
 
 8. Let the user know that they've finished this portion of the training and are ready to use Windsurf for their own work!
+
+---
+
+## Training Progress
+
+Show the user this workflow navigation:
+
+1. ✅ intro
+2. ✅ model-selection
+3. ✅ managing-conversations
+4. ✅ working-with-cascade
+5. ✅ context
+6. ✅ terminal-usage
+7. ✅ rules-lesson
+8. ✅ workflow-lesson
+9. ✅ use-case-bug-fixing
+10. ✅ **use-case-feature-dev** (You just completed this!)
+
+🎉 **Congratulations! You've completed all training workflows!**

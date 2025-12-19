@@ -19,3 +19,19 @@ This workflow is intended to give users an intro to model selection in Cascade.
 
 6. Let them know that they've finished the model selection portion of the training. Tell them to start a new conversation with the '+' button at the top of the panel, and trigger the 'managing-conversations' workflow to move on to the next portion of the training.
 
+---
+
+## Training Progress
+
+Show the user this workflow navigation:
+
+1. ✅ intro
+2. ✅ **model-selection** (You just completed this!)
+3. ➡️ **managing-conversations** (Next: `/managing-conversations`)
+4. working-with-cascade
+5. context
+6. terminal-usage
+7. rules-lesson
+8. workflow-lesson
+9. use-case-bug-fixing
+10. use-case-feature-dev

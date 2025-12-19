@@ -19,3 +19,20 @@ This is a workflow that is intended to teach users how to effectively use Windsu
 Are all great ways to use Cascade to help with bug investigation and fixing.
 
 7. Tell the user they're done with this portion of the training, and they can move on to a new conversation and trigger the 'use-case-feature-dev' workflow.
+
+---
+
+## Training Progress
+
+Show the user this workflow navigation:
+
+1. ✅ intro
+2. ✅ model-selection
+3. ✅ managing-conversations
+4. ✅ working-with-cascade
+5. ✅ context
+6. ✅ terminal-usage
+7. ✅ rules-lesson
+8. ✅ workflow-lesson
+9. ✅ **use-case-bug-fixing** (You just completed this!)
+10. ➡️ **use-case-feature-dev** (Next: `/use-case-feature-dev`)

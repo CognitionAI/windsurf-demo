@@ -20,3 +20,20 @@ Explain that previous conversations are also available to re-visit, and multiple
 5. Once they've done this, teach them about the 'table of contents' feature. Ask the user to look for very faint dashes near the top left of the Cascade panel. Tell them to click on one of the dashes, and they should see a table of contents. This allows them to easily navigate to any different part of the conversation. Tell the user to let you know once they've navigated to a different section successfully.
 
 6. Once they've done this, tell them they're ready to move on to the next portion of the training. Start a new convo with the '+' button at the top of the panel, and trigger the 'working-with-cascade' workflow to move on to the next portion of the training.
+
+---
+
+## Training Progress
+
+Show the user this workflow navigation:
+
+1. ✅ intro
+2. ✅ model-selection
+3. ✅ **managing-conversations** (You just completed this!)
+4. ➡️ **working-with-cascade** (Next: `/working-with-cascade`)
+5. context
+6. terminal-usage
+7. rules-lesson
+8. workflow-lesson
+9. use-case-bug-fixing
+10. use-case-feature-dev
