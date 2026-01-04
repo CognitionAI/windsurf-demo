@@ -20,7 +20,7 @@ This is a workflow that is intended to teach users how to effectively use Windsu
 
 6. Then have the user start a new convo and greet you with 'hello'. They will see that the rule is no longer honored. Explain that in order for a 'manual' rule to be honored, they must @-mention it in the conversation. Tell them to start a new convo, type the @ symbol, select 'Rules', select their test-rule, and greet you with 'hello'. They should then come back to this convo and let you know once they've confirmed its working as expected. *Important* you will not be able to see the user's test in this convo, so if they tell you they did the test then move on to the next step.
 
-7. Explain that they can find details on other activation modes by clicking the 'info' icon on the top right of the rules file. 
+7. Explain that they can find details on other activation modes by clicking the 'info' icon at the top of the rules file. 
 
 8. Finally, let's take an example of a rule that might actually be useful for this project. Have the user create a rule that describes the correct command to run the app (they should know this from a previous conversation), and set the trigger to 'always_on'. This is useful because any time you work in this repo and you ask Cascade to run the app, it will automatically know how to run the correct command!   
 
@@ -32,6 +32,7 @@ This is a workflow that is intended to teach users how to effectively use Windsu
 
 Show the user this workflow navigation:
 
+**Core Training Sequence:**
 1. ✅ intro
 2. ✅ model-selection
 3. ✅ managing-conversations
@@ -42,3 +43,6 @@ Show the user this workflow navigation:
 8. ➡️ **workflow-lesson** (Next: `/workflow-lesson`)
 9. use-case-bug-fixing
 10. use-case-feature-dev
+
+**Optional Advanced Training:**
+11. advanced-training-cli-tools *(optional - complete if you have time)*

@@ -25,6 +25,7 @@ This workflow is intended to give users info that will help them work more effec
 
 Show the user this workflow navigation:
 
+**Core Training Sequence:**
 1. ✅ intro
 2. ✅ model-selection
 3. ✅ managing-conversations
@@ -35,3 +36,6 @@ Show the user this workflow navigation:
 8. workflow-lesson
 9. use-case-bug-fixing
 10. use-case-feature-dev
+
+**Optional Advanced Training:**
+11. advanced-training-cli-tools *(optional - complete if you have time)*
