@@ -26,6 +26,7 @@ This workflow is intended to give users an intro to interacting with the Cascade
 
 Show the user this workflow navigation:
 
+**Core Training Sequence:**
 1. ✅ **intro** (You just completed this!)
 2. ➡️ **model-selection** (Next: `/model-selection`)
 3. managing-conversations
@@ -36,3 +37,6 @@ Show the user this workflow navigation:
 8. workflow-lesson
 9. use-case-bug-fixing
 10. use-case-feature-dev
+
+**Optional Advanced Training:**
+11. advanced-training-cli-tools *(optional - complete if you have time)*

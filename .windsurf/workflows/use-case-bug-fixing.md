@@ -28,6 +28,7 @@ Are all great ways to use Cascade to help with bug investigation and fixing.
 
 Show the user this workflow navigation:
 
+**Core Training Sequence:**
 1. ✅ intro
 2. ✅ model-selection
 3. ✅ managing-conversations
@@ -38,3 +39,6 @@ Show the user this workflow navigation:
 8. ✅ workflow-lesson
 9. ✅ **use-case-bug-fixing** (You just completed this!)
 10. ➡️ **use-case-feature-dev** (Next: `/use-case-feature-dev`)
+
+**Optional Advanced Training:**
+11. advanced-training-cli-tools *(optional - complete if you have time)*

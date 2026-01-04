@@ -26,6 +26,7 @@ This is a workflow that is intended to teach users how to effectively use Windsu
 
 Show the user this workflow navigation:
 
+**Core Training Sequence:**
 1. ✅ intro
 2. ✅ model-selection
 3. ✅ managing-conversations
@@ -37,4 +38,9 @@ Show the user this workflow navigation:
 9. ✅ use-case-bug-fixing
 10. ✅ **use-case-feature-dev** (You just completed this!)
 
-🎉 **Congratulations! You've completed all training workflows!**
+🎉 **Congratulations! You've completed all core training workflows!**
+
+**Optional Advanced Training:**
+11. advanced-training-cli-tools *(optional - complete if you have time)*
+
+If you have time, try `/advanced-training-cli-tools` to learn how to work with CLI tools in Cascade!

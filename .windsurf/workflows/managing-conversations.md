@@ -33,6 +33,7 @@ Explain that previous conversations are also available to re-visit, and multiple
 
 Show the user this workflow navigation:
 
+**Core Training Sequence:**
 1. ✅ intro
 2. ✅ model-selection
 3. ✅ **managing-conversations** (You just completed this!)
@@ -43,3 +44,6 @@ Show the user this workflow navigation:
 8. workflow-lesson
 9. use-case-bug-fixing
 10. use-case-feature-dev
+
+**Optional Advanced Training:**
+11. advanced-training-cli-tools *(optional - complete if you have time)*

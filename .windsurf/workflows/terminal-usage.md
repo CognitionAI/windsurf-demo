@@ -14,7 +14,7 @@ This is a workflow that is intended to teach users how to effectively use Windsu
 **IMPORTANT:**
 The below steps are dependent on the Cascade terminal integration working correctly, which is not always the case. If the user struggles to complete any of the below steps or says it isn't working, let them know that they can skip ahead to the next lesson. They should note that the terminal integration is not working correctly, and keep that in mind for a future session where we can debug and fix it.
 
-3. Let's test this out. Run echo '$PATH' in your terminal, and I'll start a shell and run the same thing. We expect to see the same output. Explain to the user that you can automatically see the outputs of your own shell commands, but you cannot by default see the outputs of the user's commands in their own terminal. In order for the user to show you the outputs of their own shell, they can use the @-mention menu, select 'Terminal', and then select their own terminal to show you the output of their shell commands. Tell the user to do this so that you can compare the outputs of your shell and their shell. They should also let you know if they have issues with this step.
+3. Let's test this out. Run echo '$PATH' in your terminal, and I'll start a shell and run the same thing. We expect to see the same output. Explain to the user that you can automatically see the outputs of your own shell commands, but you cannot by default see the outputs of the user's commands in their own terminal. In order for the user to show you the outputs of their own shell, they can use the @-mention menu, select 'Terminal', and then select their own terminal to show you the output of their shell commands. Tell the user to do this so that you can compare the outputs of your shell and their shell. Use your read terminal tool to actually examine the content. They should also let you know if they have issues with this step.
 
 4. Explain that often the user might want to have a shared terminal, where they can input commands and you (Cascade) can input commands in the same shell. To do this, the user should hover over the shell command in the Cascade chat, and click the button at the top right that says 'Move this terminal session to the terminal tab in your IDE'. Tell the user to let you know when they've found and clicked it.
 
@@ -32,6 +32,7 @@ The below steps are dependent on the Cascade terminal integration working correc
 
 Show the user this workflow navigation:
 
+**Core Training Sequence:**
 1. ✅ intro
 2. ✅ model-selection
 3. ✅ managing-conversations
@@ -42,3 +43,6 @@ Show the user this workflow navigation:
 8. workflow-lesson
 9. use-case-bug-fixing
 10. use-case-feature-dev
+
+**Optional Advanced Training:**
+11. advanced-training-cli-tools *(optional - complete if you have time)*

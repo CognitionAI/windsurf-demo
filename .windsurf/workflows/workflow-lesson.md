@@ -44,6 +44,7 @@ STOP here until the user confirms they've done this.
 
 Show the user this workflow navigation:
 
+**Core Training Sequence:**
 1. ✅ intro
 2. ✅ model-selection
 3. ✅ managing-conversations
@@ -54,3 +55,6 @@ Show the user this workflow navigation:
 8. ✅ **workflow-lesson** (You just completed this!)
 9. ➡️ **use-case-bug-fixing** (Next: `/use-case-bug-fixing`)
 10. use-case-feature-dev
+
+**Optional Advanced Training:**
+11. advanced-training-cli-tools *(optional - complete if you have time)*
