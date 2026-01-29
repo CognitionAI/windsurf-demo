@@ -8,10 +8,13 @@ This is a workflow that is intended to teach users how to effectively use Windsu
 **IMPORTANT:** Display the Training Progress section (defined at the bottom of this workflow) as the FIRST thing when the user triggers this workflow, and again as the LAST thing before directing them to the next workflow. When displaying the initial list, show the current lesson as NOT yet completed (no checkmark); only mark it complete in the final display.
 
 
-1. Introduce Codemaps to the user. Explain that while DeepWiki (which they'll learn about next) provides symbol-level documentation, Codemaps help with codebase understanding by mapping how everything works together—showing the order in which code and files are executed and how different components relate to each other. Codemaps are great for understanding complex flows in a codebase.
+1. Introduce Codemaps to the user. Explain that Codemaps and DeepWiki (which they'll learn about next) are both critical components to codebase understanding, and that Codemaps help with codebase understanding by mapping how everything works together—showing the order in which code and files are executed and how different components relate to each other. Codemaps are great for understanding complex flows in a codebase, including:
+- How a request flows through your application
+- What happens when a user performs a specific action
+- How different modules interact with each other
 
 2. Explain how to create a Codemap. Tell the user they can access Codemaps in one of two ways:
-   - **Activity Bar**: Find the Codemaps interface in the Activity Bar (left side panel) - it looks like a flowchart icon
+   - **Activity Bar**: Find the Codemaps interface in the Activity Bar (left side panel) - it looks like a map icon and should be the fourth icon from the top
    - **Command Palette**: Press `Cmd+Shift+P` (Mac) or `Ctrl+Shift+P` (Windows/Linux) and search for "Focus on Codemaps View"
    
    Ask the user to open the Codemaps panel using one of these methods.
@@ -29,16 +32,21 @@ This is a workflow that is intended to teach users how to effectively use Windsu
    
    Ask the user to toggle between the two views to see the difference. The toggle is at the top of the Codemap panel.
 
-5. Explain that clicking through steps in the Codemap can take them directly to the relevant place in the codebase. Each node in the Codemap links directly to the corresponding location in the code. Ask the user to click on a node/step to see how it navigates them to that file and function.
+5. Explain that clicking through steps in the text Codemap, or through the nodes in the diagram Codemap, can take them directly to the corresponding location in the codebase (e.g. Step 1a, Step 1b, etc.). Ask the user to click on a node/step to see how it navigates them to that file and function.
 
 6. Explain the different ways to use Codemaps with Cascade:
    - **Chat with specific steps**: In Text View, they can click on a step and chat about just that step
    - **Chat with the whole Codemap**: In both Diagram and Text View, they can chat about the entire Codemap
-   - **@-mention a Codemap**: They can type `@` in Cascade and select a Codemap to include it as context in their conversation
+   - **@-mention a Codemap**: They can type `@` in Cascade, select Codemaps, and pick a Codemap to include it as context in their conversation
    
-   Ask the user to try @-mentioning their Codemap in Cascade to see how it works.
+   Ask the user to try: 
+   - @-mentioning their Codemap in Cascade to see how it works.
+   - Chatting about a specific step in the Codemap in Text view to see how it works.
+   - Chatting about the entire Codemap to see how it works.
+   
+   The last two approaches will open in new Cascade windows, so make sure they know to close those windows and come back to the current chat when they're done.
 
-7. Mention that Codemaps can be shared with teammates as links that can be viewed in a browser. This is useful for onboarding new team members or discussing architecture.
+7. Mention that if Codemaps sharing is enabled (this is most likely disabled for enterprises), they can be shared with teammates as links that can be viewed in a browser. This is useful for onboarding new team members or discussing architecture.
 
 8. Tell the user they've completed the Codemaps lesson! They should start a new conversation and trigger the `/deepwiki` workflow to continue learning about code understanding tools.
 

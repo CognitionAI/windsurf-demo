@@ -11,8 +11,8 @@ This is a workflow that is intended to teach users how to effectively use Windsu
 1. Introduce DeepWiki to the user. Explain that DeepWiki provides AI-powered explanations of code symbols. Unlike classical hover cards that just show basic type information, DeepWiki explains functions, variables, and classes as you read through code. It gathers context of all the times a function or variable appears in the codebase and synthesizes it into an on-demand wiki page.
 
 2. Explain how to invoke DeepWiki. Tell the user there are two ways:
-   - **Hover + Keyboard Shortcut**: Hover over a symbol (function, variable, or class) in the code and press `Cmd+Shift+Click` (Mac) or `Ctrl+Shift+Click` (Windows/Linux)
-   - **Activity Bar**: Find the DeepWiki interface in the Primary Side Bar / Activity Bar
+   - **Hover + Keyboard Shortcut**: Hover over a symbol (function, variable, or class) in the code and click the "Read More" button at the bottom of the hover card. 
+   - **Keyboard Shortcut**: Press `Cmd+Shift+Click` (Mac) or `Ctrl+Shift+Click` (Windows/Linux) on a symbol to open DeepWiki.
    
    Ask the user to open a code file (suggest `static/js/game.js` or `static/js/renderer.js`) and try invoking DeepWiki on a function like `drawGame` or `updateGame`.
 
@@ -24,7 +24,7 @@ This is a workflow that is intended to teach users how to effectively use Windsu
    
    This is much more powerful than a simple type definition because it understands the context of how the code is actually used.
 
-4. Explain how to send DeepWiki content to Cascade. Tell the user they can click the `⋮` button (three dots menu) in the top right of the DeepWiki panel and select "Add to Cascade" or "Send to Cascade". This allows them to use the DeepWiki explanation as context when asking Cascade questions about the code.
+4. Explain how to send DeepWiki content to Cascade. Tell the user they can click the `⋮` button (three dots menu) in the top right of the DeepWiki panel and select "Add to Cascade". This allows them to use the DeepWiki explanation as context when asking Cascade questions about the code.
 
 5. Ask the user to try sending a DeepWiki explanation to Cascade. Once they do, they can ask follow-up questions about the symbol with full context already provided.
 
