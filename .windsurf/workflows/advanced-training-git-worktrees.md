@@ -30,7 +30,7 @@ This is a workflow that is intended to teach users how to effectively use Windsu
    - **Easy Review**: The worktree opens in a new window, making it easy to compare and review changes
    - **Git Integration**: Everything is managed through standard git worktree functionality
 
-6. Remind the user that worktrees work great with **multi-Cascade panels** (which they learned about in the managing-conversations lesson). They can drag Cascade tabs into split views to monitor multiple conversations side-by-side — including a worktree session alongside their main workspace. This combination lets them watch Cascade work in isolation while continuing their own tasks in the primary window.
+6. Remind the user that worktrees work great with **multi-Cascade panels** (which they learned about in the managing-conversations lesson). They can drag Cascade tabs into split views to monitor multiple conversations side-by-side — including a worktree session alongside their main workspace. This combination lets them watch Cascade agents work in isolation while continuing their own tasks in their primary workspace.
 
 7. Discuss scenarios where worktrees are particularly useful:
    - When they're in the middle of work and don't want to switch context
