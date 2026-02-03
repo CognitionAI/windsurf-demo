@@ -64,8 +64,9 @@ Show the user this workflow navigation. **Important: Display each numbered item 
 12. ✅ use-case-feature-dev (~6 min)
 
 **Optional Advanced Training:**
--  advanced-training-hooks *(optional - try `/advanced-training-hooks`)*
--  advanced-training-cli-tools *(optional - try `/advanced-training-cli-tools`)*
+- advanced-training-arena-mode *(optional - try `/advanced-training-arena-mode`)*
+- advanced-training-hooks *(optional - try `/advanced-training-hooks`)*
+- advanced-training-cli-tools *(optional - try `/advanced-training-cli-tools`)*
 - ✅ **advanced-training-git-worktrees** (You just completed this!)
 
 Great job completing this optional lesson! You now understand how to:

@@ -148,6 +148,7 @@ Show the user this workflow navigation. **Important: Display each numbered item 
 10. ✅ use-case-feature-dev (~6 min)
 
 **Optional Advanced Training:**
+- advanced-training-arena-mode *(optional - try `/advanced-training-arena-mode`)*
 - ✅ **advanced-training-hooks** (~5 min) (You just completed this!)
--  **advanced-training-cli-tools** *(optional - try `/advanced-training-cli-tools`)*
--  **advanced-training-git-worktrees** *(optional - try `/advanced-training-git-worktrees`)*
+- advanced-training-cli-tools *(optional - try `/advanced-training-cli-tools`)*
+- advanced-training-git-worktrees *(optional - try `/advanced-training-git-worktrees`)*
