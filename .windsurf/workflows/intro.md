@@ -45,5 +45,6 @@ Show the user this workflow navigation exactly as formatted below. **Important: 
 12. use-case-feature-dev (~6 min)
 
 **Optional Advanced Training:**
+- advanced-training-hooks *(optional - complete if you have time)*
 - advanced-training-cli-tools *(optional - complete if you have time)*
 - advanced-training-git-worktrees *(optional - complete if you have time)*
