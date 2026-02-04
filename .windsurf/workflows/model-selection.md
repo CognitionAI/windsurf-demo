@@ -21,9 +21,7 @@ This workflow is intended to give users an intro to model selection in Cascade.
 
 6. Let them know that the models they see are not exhaustive of SOTA models, and their team admins have limited the models available. At the time of writing, the best models available are Claude Opus 4.5 and Claude Opus 4.5 Thinking. User should keep an eye out for new models being made available in the future!
 
-7. Final note, let them know that they'll see a 'multiplier' next to each model in the selector. This multiplier refers to the number of 'credits' that each model uses. Credits are consumed only when you submit a prompt (press enter in the Cascade input box). Users should be aware of this, but do not need to restrict their credit usage, as 1000 credits is more than enough for most users!
-
-8. Let them know that they've finished the model selection portion of the training. Tell them to start a new conversation with the '+' button at the top of the panel, and trigger the 'cascade-mode-selection' workflow to move on to the next portion of the training.
+7. Let them know that they've finished the model selection portion of the training. Tell them to start a new conversation with the '+' button at the top of the panel, and trigger the 'cascade-mode-selection' workflow to move on to the next portion of the training.
 
 ---
 
