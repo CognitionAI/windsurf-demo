@@ -33,7 +33,6 @@ This is a workflow that is intended to teach users how to effectively use Windsu
 
 4. **Pick Your Own Mode**: Explain the second way to use Arena Mode - Pick Your Own:
    - Users can choose up to **5 specific models** to compare head-to-head
-   - This costs credits based on the models chosen
    - Useful when users want to compare specific models they're considering
    
    Tell the user they can try this mode if they want to compare specific models, but it's optional for this lesson.
