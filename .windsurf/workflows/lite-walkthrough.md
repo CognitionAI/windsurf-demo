@@ -1,0 +1,128 @@
+---
+description: Simplified Windsurf walkthrough for shorter live sessions
+---
+
+**CONTEXT** 
+This is a condensed version of the full Windsurf training, designed for shorter live sessions (~20 minutes). It covers the most important topics in a single flow. You should do your best to keep the user on the track defined here. Give warnings or reminders if the user is straying off course. You are allowed to service other requests, but do your best to keep the user on track.
+
+**IMPORTANT:** Display the Training Progress section (defined at the bottom of this workflow) as the FIRST thing when the user triggers this workflow. Update it as each section is completed.
+
+---
+
+## Part 1: Intro & Running the App (~5 min)
+
+1. Greet the user and briefly explain Cascade: an AI coding assistant that can read, write, and run code in their project. Prompt the user to ask a question about the codebase like "what does this app do?"
+
+2. After answering, briefly mention the search tools you used. Then offer to help run the app. Set up a venv, install dependencies, and run the app. Tell the user to click 'In-IDE' on the browser preview to see it.
+
+3. Once the app is running, tell the user you can also make changes. Prompt: "Try asking me to make a change — how about we add a 'player guide' to the game UI with brief instructions on how to play?" Implement whatever change they request, then have them refresh the browser preview.
+
+---
+
+## Part 2: Terminal Commands (~2 min)
+
+4. Explain that Cascade has its own shell for running terminal commands. Key points to cover quickly:
+   - You use the same default shell and source the user's rc file, so you have access to the same tools and env vars they do
+   - Your shell is persistent within a conversation (env vars carry over between commands)
+   - When Cascade suggests a command, the user can double-click it to edit before approving
+   
+   Demonstrate by setting an env var in one command and printing it in a separate command.
+
+---
+
+## Part 3: Adding Context (~3 min)
+
+5. Explain that Cascade can find context on its own using search tools, but users can also provide context manually. Quickly demonstrate these methods:
+   - **@-mentions**: Type `@` in the input box to attach files or directories. Have the user try `@static/js` to point you at the rendering code.
+   - **Drag and drop**: Drag a file from the explorer into the input box.
+   - **Cmd+L**: Highlight code in the editor and press `Cmd+L` to send specific lines to Cascade.
+   - **URLs**: Paste a URL for Cascade to curl and read external content.
+   - **Screenshots**: Drag and drop a screenshot for visual context (diagrams, designs, etc.)
+   
+   Have the user try at least one of these methods (suggest the @-mention approach as it's the most common).
+
+---
+
+## Part 4: Cascade Modes (~2 min)
+
+6. Explain the three Cascade modes (toggle at the bottom of the input box):
+   - **Code Mode** (default): Cascade actively makes changes — edits files, runs commands, etc.
+   - **Ask Mode**: Cascade only responds with text, no changes to the codebase. Great for learning and exploration.
+   - **Plan Mode**: Cascade creates a detailed plan but does NOT execute it. Great for scoping work before committing.
+   
+   Have the user switch to Plan Mode and try: "add a leaderboard feature to the game." Review the plan together, then switch back to Code Mode.
+
+---
+
+## Part 5: DeepWiki (~2 min)
+
+7. Introduce DeepWiki: AI-powered explanations of code symbols that go beyond basic hover cards. It gathers context from across the codebase to generate comprehensive docs for functions, variables, and classes.
+
+8. Have the user try it:
+   - Open `static/js/game.js` or `static/js/renderer.js`
+   - Hover over a function like `drawGame` or `updateGame` and click "Read More", or use `Cmd+Shift+Click` on a symbol
+   - They can send DeepWiki content to Cascade via the `⋮` menu → "Add to Cascade"
+
+---
+
+## Part 6: Codemaps (~3 min)
+
+9. Introduce Codemaps: visual maps of how code flows through the application — showing execution order and component relationships. Access via the map icon in the Activity Bar (left panel) or `Cmd+Shift+P` → "Focus on Codemaps View".
+
+10. Have the user create a Codemap. Suggest: "How does the game rendering work?" or "What happens when a player collides with food?" Walk them through:
+    - **Diagram View** vs **Text View** (toggle at top of panel)
+    - Clicking nodes/steps navigates to the corresponding code
+    - They can @-mention a Codemap in Cascade to use it as context
+
+11. Briefly contrast DeepWiki vs Codemaps:
+    - **DeepWiki**: Deep understanding of individual symbols (functions, classes, variables)
+    - **Codemaps**: Flow-level understanding of how components work together
+
+---
+
+## Part 7: Rules & Workflows (Brief Overview) (~3 min)
+
+12. Briefly explain **Rules**: persistent instructions that shape Cascade's behavior. Key points:
+    - Click the notepad icon at the top of the Cascade panel → Rules tab → `+ Workspace`
+    - Rules can be `always_on` (every conversation) or `manual` (@-mentioned when needed)
+    - Stored in `.windsurf/` so they can be committed to version control and shared with the team
+    - Example use case: "Always use python3 when running Python scripts"
+
+13. Briefly explain **Workflows**: saved, reusable prompt sequences (like the one running right now!). Key points:
+    - Also stored in `.windsurf/workflows/` and shareable via version control
+    - Triggered by typing `/workflow-name` in Cascade
+    - Great for repeatable processes like code reviews, version upgrades, architecture planning
+    - This entire training is built with workflows!
+
+---
+
+## Wrap-Up
+
+14. Summarize what was covered:
+    - **Reading & understanding code** with search tools, DeepWiki, and Codemaps
+    - **Running code** with terminal integration
+    - **Making changes** in Code Mode
+    - **Adding context** via @-mentions, drag-and-drop, Cmd+L, URLs, and screenshots
+    - **Cascade modes** for different workflows (Code, Ask, Plan)
+    - **Rules & Workflows** for customization and repeatability
+
+    Let the user know that the full training (`/intro`) covers additional topics in more depth, including model selection, conversation management, editing techniques, bug fixing workflows, and advanced features like Arena Mode, Hooks, CLI tools, and Git worktrees.
+
+---
+
+## Training Progress
+
+**Estimated session time: ~20 minutes**
+
+Show the user this progress tracker. Update checkmarks as each section is completed.
+
+**Lite Training Sequence:**
+1. Intro & Running the App (~5 min)
+2. Terminal Commands (~2 min)
+3. Adding Context (~3 min)
+4. Cascade Modes (~2 min)
+5. DeepWiki (~2 min)
+6. Codemaps (~3 min)
+7. Rules & Workflows Overview (~3 min)
+
+**Want more?** The full training covers additional topics in depth. Start a new conversation and try `/intro` to begin the complete walkthrough (~50 min).
