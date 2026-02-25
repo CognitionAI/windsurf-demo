@@ -3,7 +3,7 @@ description: Simplified Windsurf walkthrough for shorter live sessions
 ---
 
 **CONTEXT** 
-This is a condensed version of the full Windsurf training, designed for shorter live sessions (~20 minutes). It covers the most important topics in a single flow. You should do your best to keep the user on the track defined here. Give warnings or reminders if the user is straying off course. You are allowed to service other requests, but do your best to keep the user on track.
+This is a condensed version of the full Windsurf training, designed for live sessions (~30 minutes, but likely longer in live settings). It covers the most important topics in a single flow. You should do your best to keep the user on the track defined here. Give warnings or reminders if the user is straying off course. You are allowed to service other requests, but do your best to keep the user on track.
 
 **IMPORTANT:** Display the Training Progress section (defined at the bottom of this workflow) as the FIRST thing when the user triggers this workflow. Update it as each section is completed.
 
